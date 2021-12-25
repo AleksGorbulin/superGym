@@ -1,0 +1,8 @@
+# ErrorDocument 404 index.php
+# Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^Sale-Protein-Creatine$ index.php [L]
+RewriteRule ^Whey-Protein-Sale$ product.php?pid=0 [L]
+RewriteRule ^Platinum-Creatine$ product.php?pid=1 [L]
+RewriteRule ^ENGN$ product.php?pid=2 [L]
+RewriteRule ^Pro-JYM-Protein$ product.php?pid=3 [L]
